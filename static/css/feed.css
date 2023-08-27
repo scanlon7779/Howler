@@ -1,0 +1,229 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.user-info span {
+  margin-right: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  margin-right: auto;
+}
+
+nav h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-info span:first-child {
+  margin-right: 0.5rem;
+}
+  
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* New Howl form */
+  .new-howl {
+    margin-bottom: 2rem;
+  }
+  
+  .new-howl h2 {
+    margin-top: 0;
+  }
+  
+  .new-howl form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-howl textarea {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    resize: none;
+  }
+  
+  .new-howl button {
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .new-howl button:hover {
+    background-color: rgb(94, 94, 94);
+    color: white;
+  }
+  
+  .howl-card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  .howl-card p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .howl-card .howl-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .howl-card .howl-meta span {
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  #success-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #28a745;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  #success-popup p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  #ok-button1 {
+    background-color: white;
+    color: #28a745;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  #ok-button1:hover {
+    background-color: #e5ffe5;
+  }
+
+  #error-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #a72828;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+
+  #error-popup p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  #ok-button2 {
+    background-color: white;
+    color: #a72828;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  #ok-button2:hover {
+    background-color: #ffe5e5;
+  }
+  
+  .howl {
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .header {
+    margin-bottom: 10px;
+  }
+  
+  .header h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .header h2 span {
+    font-weight: normal;
+  }
+  
+  .text p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: default; 
+  }
+
+  #logout {
+    background-color:#999;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
